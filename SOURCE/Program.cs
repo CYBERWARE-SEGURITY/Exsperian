@@ -48,7 +48,7 @@ namespace Exsperian
 
             Application.Run(new MsgWarning());
             var mg = System.Windows.Forms.MessageBox.Show("THIS IS THE LAST WARNING, YOU ARE 100% SURE THAT YOU WANT TO RUN THIS MALWARE AND THAT (CYBERWARE) WILL NOT BE HELD RESPONSIBLE FOR ANY DAMAGES CAUSED",
-                $"{Application.ProductName} - FINAL WARNING!!",
+                $"{Application.ProductName} - FINAL WARNING!!", // I fixed the title of the message that had 2 .exe files (.exe.exe) - PTBR { Arrumei o Titulo do Msg Que Estava com 2 .exe (.exe.exe ) }
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Warning);
             if (mg == DialogResult.No)
