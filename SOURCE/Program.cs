@@ -36,7 +36,10 @@ namespace Exsperian
 
         public static void Main()
         {
-            // ByteBeats
+            // PTBR - ( Coloquei as Variaveis de ByteBeat encima de Tudo Pois foi Preciso. Por conta do BSOD que buga o "Processo" )
+            // ENG - ( I put the ByteBeat Variables above Everything because it was necessary. Because of the BSOD that bugs the "Process" )
+            
+            // ByteBeats  
             var som1 = new Beat1();
             var som2 = new Beat2();
             var som3 = new Beat3();
